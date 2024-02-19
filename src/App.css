@@ -17,7 +17,7 @@
   background: #eee;
   border: none;
   outline: none;
-  text-align: center;
+  padding-left: 10px;
 }
 .page_sort {
   display: flex;
