@@ -1,0 +1,41 @@
+.note_page_title {
+  font-weight: 700;
+  font-size: 28px;
+  color: black;
+  background-color: white;
+  border: none;
+  outline: none;
+}
+
+.note_page_body {
+  font-size: 18px;
+  resize: none;
+  background-color: white;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  font-family: inherit;
+}
+
+.note_page_button {
+  font-size: 20px;
+  width: 100%;
+}
+
+.note_page_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 30px;
+}
+.note_page_all {
+  box-sizing: border-box;
+  position: sticky;
+  top: 24px;
+  bottom: 24px;
+  max-width: 500px;
+  width: 100%;
+  border: 1px solid black;
+  padding: 24px;
+  height: calc(100vh - 48px);
+}

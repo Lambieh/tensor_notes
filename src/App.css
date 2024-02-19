@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
+.page {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 24px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.page_noteslist {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 15px;
+  padding: 5px;
+  max-width: 250px;
+}
+.page_search {
+  padding: 4px;
+  box-shadow: 1px 1px 3px #999;
+  background: #eee;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+.page_sort {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.page_create_edit_note {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 24px;
 }
