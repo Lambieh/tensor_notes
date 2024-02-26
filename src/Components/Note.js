@@ -42,7 +42,7 @@ function Note(props) {
           <Button
             onFunction={props.onUpdateNote}
             name={"Сохранить"}
-            className={" button_css"}
+            className={" note_page_button"}
           />
         )}
         <Button
